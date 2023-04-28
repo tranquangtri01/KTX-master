@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_pages_feedbacks",
+  "info": {
+    "displayName": "Feedback",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "subTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "cardDescription": {
+      "type": "string"
+    },
+    "cardNum": {
+      "type": "string"
+    },
+    "card2Title": {
+      "type": "string"
+    },
+    "card2Num": {
+      "type": "string"
+    }
+  }
+}

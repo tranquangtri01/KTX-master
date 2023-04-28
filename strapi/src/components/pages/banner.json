@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_pages_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.button"
+    }
+  }
+}

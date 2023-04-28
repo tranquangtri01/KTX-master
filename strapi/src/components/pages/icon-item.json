@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pages_icon_items",
+  "info": {
+    "displayName": "Icon Item",
+    "icon": "angle-double-left"
+  },
+  "options": {},
+  "attributes": {
+    "iconClass": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

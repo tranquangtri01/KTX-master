@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pages_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "caret-square-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

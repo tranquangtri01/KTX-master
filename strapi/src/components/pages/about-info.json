@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_pages_about_infos",
+  "info": {
+    "displayName": "About Info",
+    "icon": "book-medical",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.icon-item"
+    },
+    "number": {
+      "type": "string"
+    },
+    "numberDescription": {
+      "type": "string"
+    }
+  }
+}
